@@ -17,7 +17,7 @@ router.beforeEach((to, from, next) => {
                 store
                     .dispatch('GetInfo')
                     .then(() => {
-                        // 拉取用户信息
+                        // 拉取用户信息13
                         next();
                     })
                     .catch(err => {
