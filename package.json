@@ -87,11 +87,11 @@
     "lint-staged": {
         "linters": {
             "src/**/*.js": [
-                "npm run lint:fix",
+                "eslint --fix",
                 "git add"
             ],
             "src/**/*.vue": [
-                "npm run lint:fix",
+                "eslint --fix",
                 "git add"
             ]
         },
