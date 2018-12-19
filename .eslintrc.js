@@ -19,12 +19,5 @@ module.exports = {
         'indent': [2, 4, {
             'SwitchCase': 1
         }],
-        // "vue/html-indent": [2, 4, {
-        //     "attribute": 1,
-        //     "baseIndent": 1,
-        //     "closeBracket": 0,
-        //     "alignAttributesVertically": true,
-        //     "ignores": []
-        // }],
     }
 }

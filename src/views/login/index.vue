@@ -8,7 +8,7 @@
             auto-complete="on"
             label-position="left"
         >
-            <h3 class="title">vue-admin-template</h3>
+            <h3 class="title">管理后台模板</h3>
             <el-form-item prop="username">
                 <span class="svg-container">
                     <svg-icon icon-class="user" />
@@ -43,13 +43,13 @@
                     type="primary"
                     style="width:100%;"
                     @click.native.prevent="handleLogin"
-                    >Sign in</el-button
+                    >登录</el-button
                 >
             </el-form-item>
-            <div class="tips">
+            <!-- <div class="tips">
                 <span style="margin-right:20px;">username: admin</span>
                 <span>password: admin</span>
-            </div>
+            </div>-->
         </el-form>
     </div>
 </template>
