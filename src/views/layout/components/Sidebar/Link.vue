@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import { isExternal } from '@/utils'
+import { isExternal } from '@/utils';
 
 export default {
     props: {
@@ -15,7 +15,7 @@ export default {
     },
     methods: {
         isExternalLink(routePath) {
-            return isExternal(routePath)
+            return isExternal(routePath);
         },
         linkProps(url) {
             if (this.isExternalLink(url)) {
@@ -24,13 +24,13 @@ export default {
                     href: url,
                     target: '_blank',
                     rel: 'noopener'
-                }
+                };
             }
             return {
                 is: 'router-link',
                 to: url
-            }
+            };
         }
     }
-}
+};
 </script>
